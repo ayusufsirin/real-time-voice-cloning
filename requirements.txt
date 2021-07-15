@@ -13,4 +13,5 @@ inflect
 PyQt5
 multiprocess
 numba
-webrtcvad; platform_system != "Windows"
+webrtcvad-wheels; platform_system != "Windows"
+# pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
